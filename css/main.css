@@ -185,7 +185,7 @@ body {
 @media (min-width: 40em) {
   body {
     background-attachment: fixed;
-    background-image: url('../img/golf-bg.jpg');
+    background-image: url('../img/golf-bg-min.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
