@@ -174,12 +174,20 @@ body {
   color:white;
   line-height:1.2;
   margin: 0 0 10px;
+  word-break: break-word;
+  font-weight: 600;
+  font-size:1.4rem;
 }
 
 .message__sub-heading {
   color:white;
   padding:0;
   margin:0;
+}
+
+.message__highlight {
+  color: rgb(144, 238, 144);
+  font-size:75%;
 }
 
 @media (min-width: 40em) {
@@ -195,6 +203,11 @@ body {
     padding: 20px 50px;
     top: 50px;
   }
+
+  .message__heading {
+    font-size:2rem;
+  }
+
 }
 
 
